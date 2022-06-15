@@ -27,7 +27,6 @@ export default function Feed(props) {
             return <Tweet  
                       key={e.id}
                       tweet={e}
-            
             />
           })
         }

@@ -13,7 +13,7 @@ export default function Tweet({ tweet }) {
 
       <div className="tweet-content">
         <TweetUserInfo name={tweet.name} handle={tweet.handle}/>
-        <p className="tweet-text"></p>
+        <p className="tweet-text">{tweet.text}</p>
         <TweetFooter numComments={tweet.comments} numRetweets={tweet.retweets} numLikes={tweet.likes}/>
       </div>
     </div>
